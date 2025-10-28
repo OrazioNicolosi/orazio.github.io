@@ -199,6 +199,7 @@ body {
 }
 
 .publication-authors {
+  float: left;
   margin-top: 0.5rem;
   font-size: 0.875rem;
   color: #6b7280;
@@ -206,13 +207,14 @@ body {
 
 .publication-meta {
   float: left;
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
   font-size: 0.875rem;
   color: #6b7280;
 }
 
 .publication-links {
   float: left;
+  margin-top: 0.5rem;
   gap: 1rem;
   font-size: 0.875rem;
 }
