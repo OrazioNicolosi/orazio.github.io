@@ -200,6 +200,7 @@ body {
 
 .publication-authors {
   display: table-cell;
+  white-space: nowrap;
   margin-top: 0.5rem;
   font-size: 0.875rem;
   color: #6b7280;
@@ -207,6 +208,7 @@ body {
 
 .publication-meta {
   display: table-cell;
+  white-space: nowrap;
   margin-top: 0.25rem;
   font-size: 0.875rem;
   color: #6b7280;
@@ -214,6 +216,7 @@ body {
 
 .publication-links {
   display: table-cell;
+  white-space: nowrap;
   flex-wrap: wrap;
   gap: 1rem;
   font-size: 0.875rem;
