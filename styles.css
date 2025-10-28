@@ -219,10 +219,8 @@ body {
   font-size: 0.875rem;
 }
 
-.publication-row {
-}
-
 .journal {
+  float: left;
   font-style: italic;
 }
 
