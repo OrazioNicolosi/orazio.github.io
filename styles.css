@@ -199,34 +199,25 @@ body {
 }
 
 .publication-authors {
-  display: table-cell;
-  white-space: nowrap;
   margin-top: 0.5rem;
   font-size: 0.875rem;
   color: #6b7280;
 }
 
 .publication-meta {
-  display: table-cell;
-  white-space: nowrap;
+  float: left;
   margin-top: 0.25rem;
   font-size: 0.875rem;
   color: #6b7280;
 }
 
 .publication-links {
-  display: table-cell;
-  white-space: nowrap;
-  flex-wrap: wrap;
+  float: left;
   gap: 1rem;
   font-size: 0.875rem;
 }
 
 .publication-row {
-    display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-    border-spacing: 10px; /*Optional*/
 }
 
 .journal {
