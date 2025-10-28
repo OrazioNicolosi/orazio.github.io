@@ -199,15 +199,31 @@ body {
 }
 
 .publication-authors {
+  display: table-cell;
   margin-top: 0.5rem;
   font-size: 0.875rem;
   color: #6b7280;
 }
 
 .publication-meta {
+  display: table-cell;
   margin-top: 0.25rem;
   font-size: 0.875rem;
   color: #6b7280;
+}
+
+.publication-links {
+  display: table-cell;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.875rem;
+}
+
+.publication-row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
 }
 
 .journal {
@@ -218,13 +234,6 @@ body {
   font-size: 0.875rem;
   line-height: 1.6;
   color: #6b7280;
-}
-
-.publication-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  font-size: 0.875rem;
 }
 
 .external-link {
