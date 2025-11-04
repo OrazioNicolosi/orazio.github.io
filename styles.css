@@ -290,6 +290,11 @@ body {
   color: #6b7280;
 }
 
+.talk-infos {
+  display: flex; 
+  justify-content: start;
+}
+
 /* Conferences */
 .conferences-list {
   display: flex;
