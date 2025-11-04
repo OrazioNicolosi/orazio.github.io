@@ -124,10 +124,10 @@ body {
 }
 
 .profile-image {
-  width: 192px;
-  height: 192px;
-  border-radius: 0.5rem;
-  border: 2px solid #1e3a8a;
+  width: 300px;
+  height: 300px;
+  border-radius: 0.2rem;
+  border: 1px solid #1e3a8a;
   object-fit: cover;
 }
 
