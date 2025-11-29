@@ -106,7 +106,7 @@
                     </svg>
                     <a href="mailto:orazio.nicolosi@unito.it">orazio.nicolosi@unito.it</a>
                 </div>
-                <p class="copyright"> Last-Modified: <day> <month> <year> </p>
+                <p class="copyright"> <span id="last-modified"></span> </p>
                 <p class="copyright">© <span id="year"></span> Orazio Nicolosi</p>
             </div>
         </div>
@@ -114,6 +114,9 @@
 
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script>
+        document.getElementById('last-modified').textContent = document.lastModified;
     </script>
 </body>
 </html>
